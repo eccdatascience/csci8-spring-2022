@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> round(sum(celsius_temperature_ranges), 0)
-          768487
+          768487.0
           >>> len(celsius_temperature_ranges)
           65000
           >>> celsius_temperature_ranges.item(1)
