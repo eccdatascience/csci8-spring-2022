@@ -6,9 +6,9 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> proportion_in_20th_century == 0.684
+          >>> abs(proportion_in_20th_century - 0.704) < 1e-1
           True
-          >>> proportion_in_21st_century == 0.316
+          >>> abs(proportion_in_21st_century - 0.296) < 1e-1
           True
 
           """,

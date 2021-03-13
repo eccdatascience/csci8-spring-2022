@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> round(sum(celsius_temperature_ranges))
+          >>> round(sum(celsius_temperature_ranges), 0)
           768487.0
           >>> len(celsius_temperature_ranges)
           65000
